@@ -1,0 +1,17 @@
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\AutoMapper.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\Castle.Core.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\Mirza09112017.exe
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\Moq.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\StructureMap.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\Mirza09112017.pdb
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\AutoMapper.xml
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\Castle.Core.xml
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\Moq.xml
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\StructureMap.xml
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

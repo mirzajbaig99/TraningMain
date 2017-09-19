@@ -1,0 +1,152 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Reflection;
+
+namespace Mirza09112017.com.week10._10exDynamic
+{
+    class A
+    {
+
+    }
+
+    class B : A
+    {
+
+    }
+
+    class MyClass : B
+    {
+        int x;
+        int y;
+
+        public MyClass(int i)
+        {
+            Console.WriteLine("Constructing MyClass(int, int). ");
+            x = y = i;
+        }
+
+        public MyClass(int i, int j)
+        {
+            Console.WriteLine("Constructing MyClass(int, int). ");
+            x = i;
+            y = j;
+            Show();
+        }
+
+        public int Sum()
+        {
+            return x + y;
+        }
+
+        public bool IsBetween(int i)
+        {
+            if ((x < i) && (i < y)) return true;
+            else return false;
+        }
+
+        public void Set(int a, int b)
+        {
+            Console.Write("Inside Set(int, int). ");
+            x = a;
+            y = b;
+            Show();
+        }
+
+        // Overload Set.
+        public void Set(double a, double b)
+        {
+            Console.Write("Inside Set(double, double). ");
+            x = (int)a;
+            y = (int)b;
+            Show();
+        }
+
+        public void Show()
+        {
+            Console.WriteLine("Values are x: {0}, y: {1}", x, y);
+        }
+
+
+
+    }
+
+    public class ExReflection
+    {
+        public static void Main(string[] arg)
+        {
+            Type t = typeof(MyClass);
+            Type loopt = t;
+            List<Type> baseTypes = new List<Type>();
+
+            do
+            {
+                baseTypes.Add(loopt);
+                loopt = loopt.BaseType;
+            } while (!loopt.Name.Contains("Object"));
+
+            if (t.IsClass) Console.WriteLine("Is a class.");
+            if (t.IsAbstract) Console.WriteLine("Is abstract.");
+            else Console.WriteLine("Is concrete.");
+
+            // Get constructor info.
+            ConstructorInfo[] ci = t.GetConstructors();
+
+            Console.WriteLine("Available constructors: ");
+            foreach (ConstructorInfo c in ci)
+            {
+                // Display return type and name.
+                Console.Write("   " + t.Name + "(");
+
+                // Display parameters.
+                ParameterInfo[] pi = c.GetParameters();
+
+                for (int i = 0; i < pi.Length; i++)
+                {
+                    Console.Write(pi[i].ParameterType.Name +
+                                  " " + pi[i].Name);
+                    if (i + 1 < pi.Length) Console.Write(", ");
+                }
+
+                Console.WriteLine(")");
+            }
+            Console.WriteLine("----------");
+
+            Console.WriteLine();
+            // The below line will get all methods including base class methods.
+            // Since all classes derive from Object, the methods of Object class are shown. 
+            //MethodInfo[] mi = t.GetMethods();
+
+            // The below line will only show methods defined in the class. Not inherited. Instance and public methods.
+            MethodInfo[] mi = t.GetMethods(BindingFlags.DeclaredOnly |
+                               BindingFlags.Instance |
+                               BindingFlags.Public);
+
+            // Invoke each method.
+            foreach (MethodInfo m in mi)
+            {
+                // Display return type and name.
+                Console.Write("    " + m.ReturnType.Name +
+                                " " + m.Name + "(");
+
+                // Display parameters.
+                ParameterInfo[] pi = m.GetParameters();
+
+                for (int i = 0; i < pi.Length; i++)
+                {
+                    Console.Write(pi[i].ParameterType.Name +
+                                  " " + pi[i].Name);
+                    if (i + 1 < pi.Length) Console.Write(", ");
+                }
+
+                Console.WriteLine(")");
+
+                Console.WriteLine();
+                Console.ReadKey();
+
+            }
+        }
+    }
+}

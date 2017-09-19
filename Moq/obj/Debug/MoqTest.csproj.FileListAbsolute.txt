@@ -1,0 +1,17 @@
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\Moq.dll.config
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\Moq.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\Moq.pdb
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\AutoMapper.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\Castle.Core.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\Mirza09112017.exe
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\StructureMap.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\Mirza09112017.pdb
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\AutoMapper.xml
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\Castle.Core.xml
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\Moq.xml
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\StructureMap.xml
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\obj\Debug\MoqTest.csprojResolveAssemblyReference.cache
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\obj\Debug\Moq.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Moq\obj\Debug\Moq.pdb
