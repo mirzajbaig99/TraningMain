@@ -54,8 +54,9 @@
     <Compile Include="com.week20\Employee.cs" />
     <Compile Include="com.week20\IConsoleInterface.cs" />
     <Compile Include="com.week20\IEmail.cs" />
-    <Compile Include="com.week30\01ExAutoMapper.cs" />
     <Compile Include="com.week30\DTO.cs" />
+    <Compile Include="DesignPatterns\Singleton\Logger.cs" />
+    <Compile Include="DesignPatterns\Singleton\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
