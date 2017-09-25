@@ -55,14 +55,29 @@
     <Compile Include="com.week20\IConsoleInterface.cs" />
     <Compile Include="com.week20\IEmail.cs" />
     <Compile Include="com.week30\DTO.cs" />
-    <Compile Include="DesignPatterns\Factory\Factory.cs" />
+    <Compile Include="DesignPatterns\Adapter\AdapterTest.cs" />
+    <Compile Include="DesignPatterns\Adapter\Client.cs" />
+    <Compile Include="DesignPatterns\Adapter\Vendor.cs" />
+    <Compile Include="DesignPatterns\Adapter\VendorAdpater.cs" />
+    <Compile Include="DesignPatterns\Builder\BuilderOrchestration.cs" />
+    <Compile Include="DesignPatterns\Builder\Component.cs" />
+    <Compile Include="DesignPatterns\Builder\BuilderA.cs" />
+    <Compile Include="DesignPatterns\Builder\BuilderTest.cs" />
+    <Compile Include="DesignPatterns\Builder\IBuilder.cs" />
+    <Compile Include="DesignPatterns\Builder\IBuilderOrchestration.cs" />
+    <Compile Include="DesignPatterns\Builder\IComponent.cs" />
+    <Compile Include="DesignPatterns\Factory\CalculateImplentations.cs" />
+    <Compile Include="DesignPatterns\Factory\CalculateFactory.cs" />
+    <Compile Include="DesignPatterns\Factory\ICalculate.cs" />
     <Compile Include="DesignPatterns\Singleton\Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DesignPatterns\Decorator\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
