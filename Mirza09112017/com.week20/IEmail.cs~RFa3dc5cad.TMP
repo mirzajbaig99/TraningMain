@@ -8,7 +8,7 @@ namespace Mirza09112017.com.week20
 {
     public interface IEmail
     {
-        void SendEmailReturnNothing(Employee content);
+        void SendEmailReturnNothing(string content);
         bool SendEmail();
         string SendEmail(string content);
         bool SendEmail(List<string> contents);
@@ -17,11 +17,6 @@ namespace Mirza09112017.com.week20
 
     public class OutlookEmail : IEmail
     {
-        public void SendEmailReturnNothing(Employee content)
-        {
-            content.Name.Substring(0, 1);
-        }
-
         public bool SendEmail()
         {
             Console.WriteLine("Send email via smtp");
@@ -49,11 +44,6 @@ namespace Mirza09112017.com.week20
 
     public class WebServiceEmail : IEmail
     {
-        public void SendEmailReturnNothing(Employee content)
-        {
-            throw new NotImplementedException("");
-        }
-
         public bool SendEmail()
         {
             throw new NotImplementedException("");

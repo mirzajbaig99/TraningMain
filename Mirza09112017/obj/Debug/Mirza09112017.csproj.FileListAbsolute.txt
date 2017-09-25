@@ -4,3 +4,5 @@ C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Mirza0911201
 C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Mirza09112017\obj\Debug\Mirza09112017.exe
 C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Mirza09112017\obj\Debug\Mirza09112017.pdb
 C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Mirza09112017\obj\Debug\Mirza09112017.csprojResolveAssemblyReference.cache
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Mirza09112017\bin\Debug\AutoMapper.dll
+C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Mirza09112017\bin\Debug\AutoMapper.xml

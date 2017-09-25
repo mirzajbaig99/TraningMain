@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\..\..\packages\AutoMapper.2.2.1\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,9 +51,11 @@
     <Compile Include="com.week10.10exDynamic\NonNegative.cs" />
     <Compile Include="com.week10.10exDynamic\Remark.cs" />
     <Compile Include="com.week10.10exDynamic\Validator.cs" />
-    <Compile Include="com.week20\01ExMockClasses.cs" />
     <Compile Include="com.week20\Employee.cs" />
+    <Compile Include="com.week20\IConsoleInterface.cs" />
     <Compile Include="com.week20\IEmail.cs" />
+    <Compile Include="com.week30\01ExAutoMapper.cs" />
+    <Compile Include="com.week30\DTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
