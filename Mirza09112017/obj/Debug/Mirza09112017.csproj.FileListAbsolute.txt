@@ -9,3 +9,14 @@ C:\Users\U1DCER\Documents\Visual Studio 2015\Projects\Mirza09112017\Mirza0911201
 C:\dev\ITTraining\Mirza09112017\Mirza09112017\bin\Debug\Mirza09112017.exe.config
 C:\dev\ITTraining\Mirza09112017\Mirza09112017\obj\Debug\Mirza09112017.exe
 C:\dev\ITTraining\Mirza09112017\Mirza09112017\obj\Debug\Mirza09112017.pdb
+C:\dev\ITTraining\Mirza09112017\Mirza09112017\bin\Debug\Mirza09112017.exe
+C:\dev\ITTraining\Mirza09112017\Mirza09112017\bin\Debug\Mirza09112017.pdb
+C:\dev\ITTraining\Mirza09112017\Mirza09112017\bin\Debug\FluentAssertions.dll
+C:\dev\ITTraining\Mirza09112017\Mirza09112017\bin\Debug\Moq.dll
+C:\dev\ITTraining\Mirza09112017\Mirza09112017\bin\Debug\StructureMap.dll
+C:\dev\ITTraining\Mirza09112017\Mirza09112017\bin\Debug\AutoMapper.xml
+C:\dev\ITTraining\Mirza09112017\Mirza09112017\bin\Debug\FluentAssertions.pdb
+C:\dev\ITTraining\Mirza09112017\Mirza09112017\bin\Debug\FluentAssertions.xml
+C:\dev\ITTraining\Mirza09112017\Mirza09112017\bin\Debug\Moq.xml
+C:\dev\ITTraining\Mirza09112017\Mirza09112017\bin\Debug\StructureMap.xml
+C:\dev\ITTraining\Mirza09112017\Mirza09112017\obj\Debug\Mirza09112017.csprojResolveAssemblyReference.cache

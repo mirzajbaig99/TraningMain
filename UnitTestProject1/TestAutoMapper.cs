@@ -63,7 +63,7 @@ namespace UnitTestProject1
         [TestInitialize]
         public void Setup()
         {
-            ExAutoMapper.SetupAutomapper();
+            //ExAutoMapper.SetupAutomapper();
         }
         
         [TestMethod]

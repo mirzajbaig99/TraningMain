@@ -36,6 +36,15 @@
     <Reference Include="AutoMapper">
       <HintPath>..\..\..\packages\AutoMapper.2.2.1\lib\net40\AutoMapper.dll</HintPath>
     </Reference>
+    <Reference Include="FluentAssertions">
+      <HintPath>..\..\CashRegisterLevel2Part2\packages\FluentAssertions.1.7.1.1\Lib\net40\FluentAssertions.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq">
+      <HintPath>..\..\CashRegisterLevel2Part2\packages\Moq.4.7.10\lib\net45\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\..\..\..\Users\U1DCER\Documents\Visual Studio 2015\packages\StructureMap.4.4.5\lib\net45\StructureMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +55,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountBuilder\Account.cs" />
+    <Compile Include="AccountBuilder\AccountBuilder.cs" />
+    <Compile Include="AccountBuilder\AccountBuilderTest.cs" />
+    <Compile Include="AccountBuilder\Checking.cs" />
+    <Compile Include="AccountBuilder\CheckingBuilder.cs" />
+    <Compile Include="AccountBuilder\IAccountBuilder.cs" />
+    <Compile Include="AccountBuilder\Saving.cs" />
+    <Compile Include="AccountBuilder\SavingBuilder.cs" />
     <Compile Include="com.week10.10exDynamic\Console.cs" />
     <Compile Include="com.week10.10exDynamic\IConsole.cs" />
     <Compile Include="com.week10.10exDynamic\NonNegative.cs" />
@@ -55,14 +72,12 @@
     <Compile Include="com.week20\IConsoleInterface.cs" />
     <Compile Include="com.week20\IEmail.cs" />
     <Compile Include="com.week30\DTO.cs" />
-    <Compile Include="DesignPatterns\Adapter\AdapterTest.cs" />
     <Compile Include="DesignPatterns\Adapter\Client.cs" />
     <Compile Include="DesignPatterns\Adapter\Vendor.cs" />
     <Compile Include="DesignPatterns\Adapter\VendorAdpater.cs" />
     <Compile Include="DesignPatterns\Builder\BuilderOrchestration.cs" />
     <Compile Include="DesignPatterns\Builder\Component.cs" />
     <Compile Include="DesignPatterns\Builder\BuilderA.cs" />
-    <Compile Include="DesignPatterns\Builder\BuilderTest.cs" />
     <Compile Include="DesignPatterns\Builder\IBuilder.cs" />
     <Compile Include="DesignPatterns\Builder\IBuilderOrchestration.cs" />
     <Compile Include="DesignPatterns\Builder\IComponent.cs" />
@@ -77,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DesignPatterns\Decorator\" />
+    <Folder Include="StructureMap\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
